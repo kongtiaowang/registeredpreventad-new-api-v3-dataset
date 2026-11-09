@@ -11,9 +11,9 @@ https://registeredpreventad-new.loris.ca/api/v0.0.3/projects/PREVENT-AD/...
 ## Structure
 
 ```
-clinical-data/          120 data-release files (18 from 2020 + newer versions)
-images-in-BIDS/BIDS_dataset/   60,184 files (BIDS)
-images-in-MINC/         32,255 files (MINC + candidate/visit/handedness JSON)
+clinical-data/          18 data-release files (2020-10-27 release)
+images-in-BIDS/BIDS_dataset/   60,126 files (BIDS)
+images-in-MINC/         32,223 files (MINC + regenerated candidate/visit JSON)
 ```
 
 ## Getting the data
