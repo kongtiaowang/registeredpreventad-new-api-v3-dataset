@@ -72,19 +72,12 @@ datalad get <path>
 The value lives in the local `.git/config` only and must be refreshed when the
 token expires.
 
-**Option B — DataLad provider (interactive, prompt once)**
+**Option B — DataLad provider (included, currently not used by `datalad get`)**
 
-This repository ships `.datalad/providers/loris.cfg` and a `datalad` special
-remote (`autoenable=true`).  In an interactive terminal, `datalad get` asks for
-the `registeredpreventad` credentials once and reuses them from the credential
-store:
+The repository ships `.datalad/providers/loris.cfg` and a `datalad` special
+remote (`autoenable=true`), and the provider can generate a LORIS token
+correctly.  However `git-annex` performs an **unauthenticated existence check**
+(`checkpresent`) before choosing a remote, so the provider is never consulted
+and `datalad get` falls back to the plain web remote and fails with 401.
 
-```bash
-datalad get <path>
-```
-
-If git-annex picks the plain `web` remote first, force the provider:
-
-```bash
-git annex get --from datalad <path>
-```
+Until that is solved server-side (anonymous HEAD) or in DataLad, use Option A.
