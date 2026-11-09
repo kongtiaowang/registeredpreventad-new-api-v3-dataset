@@ -44,3 +44,14 @@ Tokens expire; refresh the config value when downloads start returning
   `handedness.json`) keep their original keys but have no download URL:
   the API does not serve byte-identical versions of those generated files.
   Everything else has a working URL.
+
+## Regenerated metadata (v3)
+
+`images-in-MINC/**/candidate.json` and `visit.json` (1,900 files) were
+regenerated from the current API and stored as regular git files.  The 2020
+versions had different content and cannot be re-fetched byte-identically, so
+their old annex keys were dropped for these files only.
+
+`sub-5443870` was removed: it no longer exists in the new database.
+`participants.tsv`, `dataset_description.json`, `README`, `participants.json`
+and `.bids-validator-config.json` were refreshed from the API.
