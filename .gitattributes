@@ -1,2 +1,5 @@
 * annex.backend=MD5E
 **/.git* annex.largefiles=nothing
+**/candidate.json annex.largefiles=nothing
+**/visit.json annex.largefiles=nothing
+**/images/images annex.largefiles=nothing
