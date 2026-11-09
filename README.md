@@ -55,3 +55,36 @@ their old annex keys were dropped for these files only.
 `sub-5443870` was removed: it no longer exists in the new database.
 `participants.tsv`, `dataset_description.json`, `README`, `participants.json`
 and `.bids-validator-config.json` were refreshed from the API.
+
+## Two ways to authenticate
+
+**Option A — header (works headless / in scripts)**
+
+```bash
+TOKEN=$(curl -s -X POST -H 'Content-Type: application/json' \
+  -d '{"username":"<user>","password":"<password>"}' \
+  https://registeredpreventad-new.loris.ca/api/v0.0.3/login \
+  | python3 -c 'import json,sys;print(json.load(sys.stdin)["token"])')
+git config annex.http-headers "Authorization: Bearer $TOKEN"
+datalad get <path>
+```
+
+The value lives in the local `.git/config` only and must be refreshed when the
+token expires.
+
+**Option B — DataLad provider (interactive, prompt once)**
+
+This repository ships `.datalad/providers/loris.cfg` and a `datalad` special
+remote (`autoenable=true`).  In an interactive terminal, `datalad get` asks for
+the `registeredpreventad` credentials once and reuses them from the credential
+store:
+
+```bash
+datalad get <path>
+```
+
+If git-annex picks the plain `web` remote first, force the provider:
+
+```bash
+git annex get --from datalad <path>
+```
