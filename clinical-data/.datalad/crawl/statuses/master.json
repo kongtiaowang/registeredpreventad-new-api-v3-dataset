@@ -1,0 +1,77 @@
+{
+  "db_version": 1,
+  "files": {
+    "AD8_Registered_PREVENTAD.csv": {
+      "filename": "AD8_Registered_PREVENTAD.csv",
+      "size": 81621
+    },
+    "APS_Registered_PREVENTAD.csv": {
+      "filename": "APS_Registered_PREVENTAD.csv",
+      "size": 24725
+    },
+    "Auditory_processing_Registered_PREVENTAD.csv": {
+      "filename": "Auditory_processing_Registered_PREVENTAD.csv",
+      "size": 54962
+    },
+    "BP_Pulse_Weight_Registered_PREVENTAD.csv": {
+      "filename": "BP_Pulse_Weight_Registered_PREVENTAD.csv",
+      "size": 121799
+    },
+    "CSF_proteins_Registered_PREVENTAD.csv": {
+      "filename": "CSF_proteins_Registered_PREVENTAD.csv",
+      "size": 44526
+    },
+    "Data_Dictionary_Registered_PREVENTAD.csv": {
+      "filename": "Data_Dictionary_Registered_PREVENTAD.csv",
+      "size": 42620
+    },
+    "Demographics_Registered_PREVENTAD.csv": {
+      "filename": "Demographics_Registered_PREVENTAD.csv",
+      "size": 55714
+    },
+    "EL_CAIDE_Registered_PREVENTAD.csv": {
+      "filename": "EL_CAIDE_Registered_PREVENTAD.csv",
+      "size": 22639
+    },
+    "EL_CDR_MoCA_Registered_PREVENTAD.csv": {
+      "filename": "EL_CDR_MoCA_Registered_PREVENTAD.csv",
+      "size": 50962
+    },
+    "EL_Medical_history_Registered_PREVENTAD.csv": {
+      "filename": "EL_Medical_history_Registered_PREVENTAD.csv",
+      "size": 23223
+    },
+    "Genetics_Registered_PREVENTAD.csv": {
+      "filename": "Genetics_Registered_PREVENTAD.csv",
+      "size": 63263
+    },
+    "Lab_Registered_PREVENTAD.csv": {
+      "filename": "Lab_Registered_PREVENTAD.csv",
+      "size": 122207
+    },
+    "List_of_participants_switched_back_to_cohort.txt": {
+      "filename": "List_of_participants_switched_back_to_cohort.txt",
+      "size": 156
+    },
+    "List_of_participants_with_only_1_sibling.txt": {
+      "filename": "List_of_participants_with_only_1_sibling.txt",
+      "size": 104
+    },
+    "Med_categories.txt": {
+      "filename": "Med_categories.txt",
+      "size": 5144
+    },
+    "Med_use_Registered_PREVENTAD.csv": {
+      "filename": "Med_use_Registered_PREVENTAD.csv",
+      "size": 229411
+    },
+    "RBANS_Registered_PREVENTAD.csv": {
+      "filename": "RBANS_Registered_PREVENTAD.csv",
+      "size": 293155
+    },
+    "Smell_identification_Registered_PREVENTAD.csv": {
+      "filename": "Smell_identification_Registered_PREVENTAD.csv",
+      "size": 90193
+    }
+  }
+}
