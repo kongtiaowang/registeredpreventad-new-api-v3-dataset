@@ -1,1 +1,19 @@
-/annex/objects/MD5E-s300--6ffc4d780e09cef7e3c3493d682116f1.json
+{
+  "Meta": {
+    "CandID": "1369125",
+    "Project": "PREVENT-AD",
+    "PSCID": "CONP0000151",
+    "Site": "Montreal",
+    "EDC": null,
+    "DoB": null,
+    "Sex": "Male",
+    "Gender": "Male",
+    "Language": "en"
+  },
+  "Visits": [
+    "PREEN00",
+    "PREBL00",
+    "PREFU12",
+    "PREFU24"
+  ]
+}

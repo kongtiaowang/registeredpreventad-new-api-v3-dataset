@@ -1,1 +1,10 @@
-/annex/objects/MD5E-s170--9a4d44227c96df4f09e4dba6339f0b7b.json
+{
+  "Meta": {
+    "CandID": "8822042",
+    "Visit": "NAPFU24",
+    "Site": "Montreal",
+    "Battery": "INTREPAD trial",
+    "Project": "PREVENT-AD"
+  },
+  "Stages": []
+}

@@ -1,1 +1,10 @@
-/annex/objects/MD5E-s189--08225d6aa3a18afab63408fc39ed83a0.json
+{
+  "Meta": {
+    "CandID": "9827494",
+    "Visit": "PREBL00",
+    "Site": "Montreal",
+    "Battery": "At-risk of AD longitudinal cohort",
+    "Project": "PREVENT-AD"
+  },
+  "Stages": []
+}
